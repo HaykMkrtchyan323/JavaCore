@@ -22,7 +22,7 @@ public class figure4 {
             for (int j = 1; j <= i; j++) {
                 System.out.print("  ");
             }
-            for (int x = 4; x >= i; x--) {
+            for (int x = 4; x >=  i; x--) {
                 System.out.print("* ");
             }
 
