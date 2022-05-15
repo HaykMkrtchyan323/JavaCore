@@ -60,7 +60,7 @@ public class arraysutil {
         }
         System.out.println("7. կենտերի քանակՆ Է " + oddqount + " ");
         int lenght = arays.length;
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < arays.length; i++) {
             sum = sum + arays[i];
         }
