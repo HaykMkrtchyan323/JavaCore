@@ -42,23 +42,23 @@ public class arraysutil {
 
         }
         System.out.println();
-        int evenqount = 0;
+        int evencount = 0;
         for (int i = 0; i < arays.length; i++) {
             if (arays[i] % 2 == 0) {
-                evenqount++;
+                evencount++;
             }
 
         }
-        System.out.print("6. զույգերի քանակն է " + evenqount + " ");
+        System.out.print("6. զույգերի քանակն է " + evencount + " ");
 
         System.out.println();
-        int oddqount = 0;
+        int oddcount = 0;
         for (int i = 0; i < arays.length; i++) {
             if (arays[i] % 2 != 0) {
-                oddqount++;
+                oddcount++;
             }
         }
-        System.out.println("7. կենտերի քանակՆ Է " + oddqount + " ");
+        System.out.println("7. կենտերի քանակՆ Է " + oddcount + " ");
         int lenght = arays.length;
         double sum = 0;
         for (int i = 0; i < arays.length; i++) {
