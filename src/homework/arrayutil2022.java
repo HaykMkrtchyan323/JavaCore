@@ -1,6 +1,6 @@
 package homework;
 
-public class arraysutil {
+public class arrayutil2022 {
     public static void main(String[] args) {
         int[] arays = {2, 5, 8, 10, 32, 22, 11, 66, 12, 30};
         System.out.print("1․ մասիվի բոլոր էլեմենտներՆ ԵՆ ");

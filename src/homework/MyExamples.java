@@ -2,17 +2,13 @@ package homework;
 
 public class MyExamples {
     public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
-            for (int j = i; j < 5; j++) {
-                System.out.print("  ");
+        int x=10,y=0;
+        int k=0/100;
+        System.out.println(k);System.out.println(k);
 
-            }
-            for (int x = 1; x < i; x++) {
-                System.out.print("* ");
-            }
-            System.out.println("* ");
 
-        }
+
+
 
     }
 
