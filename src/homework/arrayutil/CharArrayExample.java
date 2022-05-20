@@ -22,19 +22,19 @@ public class CharArrayExample {
             System.out.println("մեր մասիվը չի վերջանում է ly");
         }
         char[] bobArray = {'b', 'a', 'b', 'o', 'b', 'a' };
-        boolean isbob  = false;
-        for (int i = 0; i < bobArray.length; i++) {
-            if (bobArray[i] == 'b' && bobArray[i++] == 'b') {
+        boolean isbob = false;
+        for (int i = 0; i < bobArray.length - 2; i++) {
+            if (bobArray[i] == 'b' && bobArray[i + 2] == 'b') {
                 isbob = true;
             }
         }
         System.out.println(isbob);
 
         System.out.print("մասիվի այն սինվոլները որոնք պռաբել չեն ");
-        char[] text = {' ',' ','b','a','r','e','v',' ',' '};
+        char[] text = {' ', ' ', 'b', 'a', 'r', 'e', 'v', ' ', ' ' };
         for (int i = 0; i < text.length; i++) {
-            if (text[i] == ' ' ){
-            }else {
+            if (text[i] == ' ') {
+            } else {
                 System.out.print(text[i]);
             }
 
